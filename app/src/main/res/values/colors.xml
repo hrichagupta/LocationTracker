@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+   <color name="colorTop">#0c2461</color>
+    <color name="colorBetween">#4a69bd</color>
+    <color name="colorBottom">#90a4ae</color>
+    <color name="colorTopInternet">#707070</color>
+    <color name="colorBetweenInternet">#afafaf</color>
+    <color name="colorBottomInternet">#979797</color>
+    <color name="colorText">#5dd6ff</color>
+    <color name="colorExitDialog">#229679</color>
+    <color name="colorBetweenKeepGpsOnAnimation">#949494</color>
+    <color name="colorTopKeepGpsOnAnimation">#aaa5ae</color>
+    <color name="colorBottomKeepGpsOnAnimation">#b5b2b9</color>
+    <color name="colorForNames">#2c8072</color>
+    <color name="colorForView">#cf7e28</color>
+
+
+</resources>

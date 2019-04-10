@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivityAddress">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/locationShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/share_like_shareit" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_for_auto_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/hooter_one"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtForMailSelf"
+        android:hint="Enter your valid Gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/locationShare"
+        android:maxEms="25"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="5dp"/>
+
+    <EditText
+        android:id="@+id/edtForMailSent"
+        android:hint="Enter valid destination Gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtForMailSelf"
+        android:layout_toLeftOf="@+id/locationShare"
+        android:maxEms="25"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="5dp"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    android:gravity="center"
+    tools:context=".ContentActivity">
+
+
+    <Button
+        android:id="@+id/btnAddress"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/custom_button"
+        android:text="Find Address"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnPlaces"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnAddress"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/custom_button"
+        android:text="Near by places"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNavigation"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnPlaces"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/custom_button"
+        android:text="Navigation"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnNavigation"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/custom_button"
+        android:text="Exit"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+

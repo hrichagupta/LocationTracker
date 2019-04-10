@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ContentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBetween</item>
+        <item name="colorPrimaryDark">@color/colorTop</item>
+        <item name="colorAccent">@color/colorBottom</item>
+    </style>
+
+    <style name="NoInternetTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBetweenInternet</item>
+        <item name="colorPrimaryDark">@color/colorTopInternet</item>
+        <item name="colorAccent">@color/colorBottomInternet</item>
+    </style>
+
+    <style name="KeepGpsOnAnimationTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBetweenKeepGpsOnAnimation</item>
+        <item name="colorPrimaryDark">@color/colorTopKeepGpsOnAnimation</item>
+        <item name="colorAccent">@color/colorBottomKeepGpsOnAnimation</item>
+    </style>
+
+</resources>
